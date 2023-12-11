@@ -16,10 +16,10 @@ def convert_currency(base):
         print(e)
         return None
     
-base = input("Enterthe base currency (e for exit): ").upper()
+base = input("Enter the base currency (e for exit): ").upper()
 
 if base not in CURRENCIES:
-    print(Invalid)
+    print(None)
  
 data = convert_currency("KSH")
 for ticker, Value in data.items():
