@@ -12,8 +12,8 @@ def convert_currency(base):
        response = requests.get(url)
        data = response.json(data)
        return data
-    except Exception as e:
-        print(e)
+    except Exception as i:
+        print(i)
         return None
     
  while True:
