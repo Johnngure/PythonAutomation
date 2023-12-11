@@ -16,3 +16,5 @@ def convert_currency(base):
     except Exception as e:
         print(e)
         return None
+    
+convert_currency("KSH")    
